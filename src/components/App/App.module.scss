@@ -1,0 +1,15 @@
+@import "variables";
+body {
+  background: #141414;
+  color: #ffffff;
+  font-family: $ff-Poppins;
+}
+
+h1 {
+  font-weight: $fw-bold;
+}
+
+.movieApp > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
